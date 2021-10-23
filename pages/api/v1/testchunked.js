@@ -3,4 +3,4 @@ async function TestChunked(aRequest, aResponse) {
   aResponse.status(200).json(lResponse);
 }
 
-export default Status;
+export default TestChunked;
