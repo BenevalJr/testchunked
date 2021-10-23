@@ -1,5 +1,6 @@
 async function TestChunked(aRequest, aResponse) {
-  aResponse.status(200).json({'ola'});
+  lResponse = { status: "Ok" };
+  aResponse.status(200).json(lResponse);
 }
 
 export default Status;
