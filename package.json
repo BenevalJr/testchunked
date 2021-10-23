@@ -1,0 +1,26 @@
+{
+  "name": "testchunked",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenevalJr/testchunked.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenevalJr/api-testchunked/issues"
+  },
+  "homepage": "https://github.com/BenevalJr/api-testchunked#readme",
+  "dependencies": {
+    "atob": "^2.1.2",
+    "next": "^10.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
