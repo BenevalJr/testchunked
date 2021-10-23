@@ -1,11 +1,14 @@
 async function TestChunked(aRequest, aResponse) {
-  var lResponse = [];
+  let lResponse = [];
+  let lId;
+  let lDescription;
 
   for (var i = 0; i < 100000000; i++) {
-    let lId = i.toString();
+    lId = i.toString();
+    lDescription = "description " + lId;
     lResponse.push({
-      //id: lId,
-      description: "description ", //+ lId,
+      id: lId,
+      description: lDescription,
     });
   }
 
